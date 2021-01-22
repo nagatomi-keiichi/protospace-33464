@@ -44,7 +44,7 @@ class PrototypesController < ApplicationController
       redirect_to root_path
     else
       render :new
-      @messages = @prototype.messages.includes(:user)
+      #@messages = @prototype.messages.includes(:user)
    end
   end
 
